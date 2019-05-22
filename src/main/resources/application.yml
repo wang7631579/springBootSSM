@@ -1,0 +1,10 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /dha
+          
+mybatis:
+  config-location: classpath:mybatis/mybatis.cfg.xml        # mybatis配置文件所在路径
+  mapper-locations:
+  - classpath:mybatis/mapper/**/*.xml
+
